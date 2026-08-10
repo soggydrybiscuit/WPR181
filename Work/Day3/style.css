@@ -1,0 +1,18 @@
+#one {
+            color:tomato;
+            background-color: aliceblue;
+        }
+
+        #two{
+            color:green;
+        }
+        p{
+            text-align:center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .blue{
+            color: blue;
+        }
+        #red{
+            color: red;
+        }

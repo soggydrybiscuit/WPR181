@@ -1,0 +1,44 @@
+img {height:100px; width:100px}
+
+header{
+    background-color: #0b2a67;
+    text-align: center;
+    font-size: larger;
+}
+
+.whitetxt{
+    color: white;
+}
+.yellowtxt{
+    color: gold
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    gap: 60px;
+}
+nav{
+    background-color: #2d5eb6;
+}   
+
+a:hover, a:active{
+    color: gold;
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: #0b2a67;
+    text-align: center;
+    font-size: larger;
+}
+
+#control {
+    text-align: right;
+}
