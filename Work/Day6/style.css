@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    /*overrides the row height and doesn't just automatically fit for the content*/
+    /*minmax sets height but if content is bigger, autofits*/
+    /*grid-auto-rows: minmax(150px, auto);*/
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.cell {
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
