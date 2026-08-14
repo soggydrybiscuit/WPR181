@@ -1,0 +1,89 @@
+header {
+    display: grid;
+    height: 100px;
+    background-color: lightgray;
+    grid-template-columns: 40% 60%;
+    margin: 0;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    padding: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: navy;
+    text-align: center;
+}
+
+a:hover {
+    display: inline-block;
+    width: 60px;
+    height: 100px;
+    background-image: url(images/images/bg-nav-selected.png);
+    background-position:cover;
+    margin:0;
+    padding:0
+
+}
+
+.container {
+    display: grid;
+    max-width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, minmax(300px, auto));
+}
+
+.leftcell {
+    border: 0px solid white;
+    padding: 20px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.rightcell {
+    border: 0px solid white;
+    padding: 20px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.imgcell {
+    justify-content: center;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(37, 110, 122);
+}
+
+.container2 {
+    display: grid;
+    max-width: 100vw; 
+    margin: 0 auto;  
+    padding: 0;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+    justify-content: right;
+}
+
+footer p{
+    
+}

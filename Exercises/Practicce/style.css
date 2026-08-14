@@ -1,0 +1,20 @@
+ul {
+    
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#current-page {
+    color: red;
+    text-decoration-line: underline;
+}
+
+a:hover    {
+    color: orange;
+    text-decoration-line: underline;
+}
